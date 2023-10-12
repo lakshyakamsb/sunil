@@ -20,7 +20,7 @@ const Navbar = () => {
         
         <div className="container ">
         <Link to="/" className="navbar-brand">
-          <img src="./imgage/lkl.jpg" alt="Website Logo" className="custom-logo img-fluid" />
+          <img src={process.env.PUBLIC_URL + '/image/lkl.jpg'} alt="Website Logo" className="custom-logo img-fluid" />
        </Link>
 
 

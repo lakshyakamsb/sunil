@@ -19,7 +19,7 @@ const About = () => {
         </div>
         <div className="col-md-6">
           <img
-            src="./image/img.jpg"
+            src={process.env.PUBLIC_URL + '/image/lkl.jpg'}
             alt="this is about img"
             className="img-fluid"
           />
