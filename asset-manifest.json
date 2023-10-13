@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sunil/static/css/main.6d963711.css",
+    "main.js": "/sunil/static/js/main.d32c8e50.js",
+    "index.html": "/sunil/index.html",
+    "main.6d963711.css.map": "/sunil/static/css/main.6d963711.css.map",
+    "main.d32c8e50.js.map": "/sunil/static/js/main.d32c8e50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d963711.css",
+    "static/js/main.d32c8e50.js"
+  ]
+}
