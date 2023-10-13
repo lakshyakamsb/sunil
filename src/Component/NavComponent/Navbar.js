@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className={`navbar navbar-expand-lg navbar-light bg-primary bg-gradient fixed-top bg-light  `}>
+      <nav className={`navbar navbar-expand-lg navbar-light bg-primary bg-gradient fixed-top bg-light  `} style={{ fontFamily: "'AR One Sans', 'Open Sans', sans-serif", fontSize: '25px' }}>
         
         <div className="container ">
         <Link to="/" className="navbar-brand">

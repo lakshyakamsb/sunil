@@ -1,21 +1,49 @@
 import React from 'react';
 
 const About = () => {
-    const divStyle = {
-        marginTop: '100px',
-      };
-      
+  const divStyle = {
+    marginTop: '100px',
+    fontFamily: "'AR One Sans', sans-serif",
+    fontFamily: "'Open Sans', sans-serif",
+    fontSize: '25px',
+    
+  };
+
   return (
-    <div style={divStyle} className="container mt-5 ">
+    <div style={divStyle} className="container mt-5">
       <div className="row">
         <div className="col-md-6">
-          <h1 style={divStyle}>About Us</h1>
+        <h1 style={{ ...divStyle, fontSize: '40px' }}>About Us</h1>
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            efficitur odio sit amet justo vestibulum, vel convallis lorem
-            vulputate. Fusce id nisl at purus cursus condimentum.
+            Welcome to Shuddhivigrah Alternative Medicine – Your Path to Holistic Healing!
+            At Shuddhivigrah Alternative Medicine, we believe in the power of natural therapies to rejuvenate your body and mind. Serving the Delhi NCR area, we offer personalized home services for a range of holistic treatments, carefully curated to promote your overall well-being. Our certified team of experts combines ancient healing practices with modern technology, ensuring you receive the best care possible.
+            <strong>Why Choose Us?</strong>
+            <ol>
+              <li>
+                <strong>Comprehensive Natural Therapies:</strong> We specialize in a variety of natural therapies tailored to meet your individual needs. From acupuncture and herbal remedies to yoga and meditation, our therapies encompass the essence of traditional healing practices.
+              </li>
+              <li>
+                <strong>Home Services:</strong> Experience the comfort of healing in your own space. Our dedicated team provides home services, ensuring you can relax and rejuvenate without the hassle of travel.
+              </li>
+              <li>
+                <strong>Integration of Technology:</strong> We blend ancient wisdom with modern innovation. During sessions, we harness the power of cutting-edge machines, enhancing the effectiveness of your treatments.
+              </li>
+              <li>
+                <strong>Certified Experts:</strong> Our team comprises certified experts who are passionate about holistic healing. They have successfully treated over 1000 satisfied patients, helping them achieve optimal health and vitality.
+              </li>
+              <li>
+                <strong>Center-Based Treatments:</strong> If you prefer in-person sessions, our center offers a serene and welcoming environment. Our state-of-the-art facilities are designed to promote tranquility and healing.
+              </li>
+              <li>
+                <strong>Treatment for Multiple Diseases:</strong> Whether you’re seeking relief from chronic pain, managing stress, or addressing specific health concerns, our treatments are designed to target a wide range of diseases. We offer holistic solutions that promote healing from within.
+              </li>
+              <li>
+                <strong>Mind-Body Wellness:</strong> We understand the interconnectedness of the mind and body. Our holistic approach not only addresses physical ailments but also nurtures mental well-being, fostering a sense of balance and harmony in your life.
+              </li>
+            </ol>
+            At Shuddhivigrah Alternative Medicine, your journey to holistic health begins. Let our expert team guide you towards a life of vitality and wellness. Embrace natural healing, embrace life.
           </p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore rerum ipsam qui voluptates, reiciendis provident unde beatae sequi ullam officiis. Laboriosam tempore totam voluptates provident magni, in odit labore dolore enim ad aliquam voluptatibus iusto aut dolores eos animi saepe praesentium facere repellat! Nulla ipsa officia quae necessitatibus minima, perspiciatis nobis inventore sapiente ullam culpa porro rem corrupti tempora neque nisi commodi aspernatur odio placeat maxime! Quae nobis error magni. Quo, maxime. Laboriosam molestias sapiente eaque consequatur labore atque eligendi cumque dolor praesentium totam dolores, hic temporibus facere dicta sequi recusandae fuga illum suscipit ea similique vero eius tenetur laborum. At perspiciatis autem laborum laudantium explicabo aliquam. Quam quos unde est maiores dicta. Quidem tenetur vero deserunt quam molestias nisi tempora dolore beatae reprehenderit, obcaecati sint omnis illum excepturi qui. Corporis quidem eligendi ipsam voluptatibus doloremque dolore aliquid debitis nihil impedit soluta maiores, reprehenderit assumenda dicta libero accusantium quos odit laudantium neque quaerat a, nostrum quia repudiandae ipsa. Nihil consequatur adipisci corrupti id aliquam, tempora eligendi reprehenderit eos officia quis. Exercitationem, ea. Eius accusamus in aperiam quisquam voluptatibus quis odit? Blanditiis, unde soluta eum quam fuga, cum in vitae voluptatibus numquam iure laborum dolorem neque impedit officia aut nesciunt sunt autem eius sapiente. Perspiciatis fugit eius aspernatur ratione explicabo blanditiis quas ipsam, quo dolorum voluptatem consequatur optio molestiae. Iste aut nihil assumenda vel cum officiis ullam itaque pariatur alias dolore nisi officia nulla culpa explicabo illo provident perferendis dolor eos eligendi, debitis voluptate exercitationem ad! Ad, dicta. Iste libero, quidem debitis rerum incidunt laborum at numquam vitae provident aliquid repudiandae! Tempore a dicta natus obcaecati, alias delectus aliquid eligendi, beatae cumque harum facilis illum maxime dignissimos ea eius accusantium ducimus similique quasi corporis. Modi soluta quaerat odit repellat. Veritatis, eum laudantium est tenetur nam non, eaque sunt, vel odit inventore nemo unde illum nisi molestias nulla obcaecati. Eius natus sint voluptatum nam sunt! Praesentium autem nesciunt dolores ea corporis iste tempore, doloremque recusandae harum asperiores error omnis totam officia consequatur, dicta saepe fuga odio tenetur provident voluptate velit! Dolorum veniam deserunt eveniet rem, quod quibusdam dolorem molestias sapiente quis ratione, aut inventore quisquam repellendus aliquid. Ut delectus ipsa rerum impedit. Et nulla possimus, in tenetur vero beatae eos molestias minima debitis natus voluptate? Dicta nemo blanditiis tenetur adipisci deleniti nobis eum accusantium aspernatur quod mollitia rem sed quibusdam sint dolorem veritatis delectus asperiores ab quos, vel cumque esse natus? Aperiam?</p>
         </div>
         <div className="col-md-6">
           <img
@@ -25,9 +53,6 @@ const About = () => {
           />
         </div>
       </div>
-
-     
-
     </div>
   );
 };
